@@ -1,0 +1,30 @@
+# 核心依赖
+torch==2.2.2
+torchvision==0.17.2
+sentence-transformers==2.7.0
+transformers==4.41.2
+huggingface-hub==0.23.5
+tokenizers==0.19.1
+numpy==1.26.4
+
+# LangChain - 不固定核心版本
+langchain==0.1.0
+langchain-community==0.0.10
+langchain-openai==0.0.5
+
+# Web 框架
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# 向量数据库
+chromadb==0.4.22
+
+# 文档处理
+pypdf==3.17.4
+python-docx==1.1.0
+docx2txt
+
+# 其他
+pydantic==1.10.13
+packaging==23.2
