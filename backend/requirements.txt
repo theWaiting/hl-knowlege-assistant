@@ -13,6 +13,8 @@ langchain-core>=0.1.16,<0.2
 langchain-community>=0.0.20
 langchain-huggingface>=0.0.1  # 新增：官方 HuggingFace 集成
 langchain-chroma>=0.1.0       # 新增：官方 Chroma 集成
+langchain-openai>=0.0.1      # 新增：官方 OpenAI 集成
+rank-bm25==0.2.2  # 新增：BM25 检索器依赖，适合处理大规模文本数据，能够根据词频和逆文档频率进行检索;
 
 # Web 框架
 fastapi==0.104.1
